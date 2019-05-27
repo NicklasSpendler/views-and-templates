@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><%= titel %></title>
+    <title><%= typeof title != 'undefined' ? title : '' %></title>
     <%- include('partials/styles.ejs') %>
 </head>
+
 <body>
     <header>
         <%- include('partials/header.ejs') %>
         <%- include('partials/nav.ejs') %>
     </header>
     <main>
-        <h1>OmegaMain</h1>
+        <div class="wrapper">
+            <h1>Home</h1>
+        </div>
     </main>
     <footer>
         <%- include('partials/footer.ejs') %>
     </footer>
 </body>
+
 </html>

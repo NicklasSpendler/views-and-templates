@@ -1,0 +1,45 @@
+:root{
+    --Eerie-Black: #0d1321;
+    --YankeesBlue: #1d2d44;
+    --Deep-Space-Sparkle: #3e5c76;
+    --Shadow-Blue: #748cab;
+    --Eggshell: #f0ebd8;
+}
+.wrapper{
+    margin: 0 10%;
+}
+header{
+    background-color: var(--YankeesBlue);
+    padding: 1em 0;
+}
+header h1{
+    margin: 0 0 1em 0;
+}
+nav li{
+    font-size: 1.5em;
+}
+body{
+    margin: 0;
+    background-color: var(--Eerie-Black)
+}
+h1,h2,h3,h4,h5,li,a,p{
+    color: var(--Eggshell);
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    display: inline;
+    text-decoration: none;
+}
+nav ul li:hover{
+    color: gold;
+}
+nav ul a{
+    margin-right: .5em;
+    text-decoration: none;
+}
+footer{
+    background-color: var(--YankeesBlue)
+}
